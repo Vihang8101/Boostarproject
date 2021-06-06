@@ -1,0 +1,98 @@
+@font-face {
+    font-family: FONT1;
+    src: url(../fonts/font0.otf);
+}
+
+@font-face {
+    font-family: FONT2;
+    src: url(../fonts/font1.otf);
+}
+
+@font-face {
+    font-family: FONT3;
+    src: url(../fonts/font.ttf);
+}
+
+/* General css*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* body{ font-family: ; font-size: ;} */
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+:root {
+    --Pantone:#50c3af;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --bg: #f1f1f1;
+    --black:#2e2e2e;
+    --darkorange: #DF4A28;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+html {
+    font-family: Georgia, MyriadPro-Regular, AdobeInvisFont;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+
+.clearflix {
+    display: block;
+    overflow: auto;
+    clear: both;
+}
+/* ------------topbar------------ */
+.topbar:hover{color:var(--red); text-decoration: none;}
+.topbar{color: var(--white);}
+/* -----------navbar------------- */
+.nobodyfool{font-size: 3.0000022677168rem; color: rgba(51, 51, 51, 255); text-align: left;}
+/* ------------section--------------- */
+.section{background-color:var(--bg);}
+.secparagraph{font-size: 1.3333343412075 Rem;}
+.bottom-border{background-color:var(--bg) ; border: 10px solid var(--bg);}
+/* -------------------------footer----------------------- */
+.footer-border{border: 2px solid var(--black);}
+.footer-img{border: 1px solid white}
+
