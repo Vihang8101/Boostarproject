@@ -13,6 +13,16 @@
     src: url(../fonts/font.ttf);
 }
 
+@font-face {
+    font-family: Myriad;
+    src: url(../font/Myriad.ttf);
+}
+
+@font-face {
+    font-family: AdobeInvisFont;
+    src: url(../font/AdobeInvisFont.ttf);
+}
+
 /* General css*/
 
 * {
@@ -24,11 +34,10 @@
 
 body {
     display: block;
-    margin: 8px;
 }
 
 :root {
-    --Pantone:#50c3af;
+    --Pantone: #50c3af;
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -51,7 +60,7 @@ body {
     --light: #f8f9fa;
     --dark: #343a40;
     --bg: #f1f1f1;
-    --black:#2e2e2e;
+    --black: #2e2e2e;
     --darkorange: #DF4A28;
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
@@ -59,11 +68,11 @@ body {
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace, myriadpro-Regular;
 }
 
 html {
-    font-family: Georgia, MyriadPro-Regular, AdobeInvisFont;
+    font-family: georgia,Myriad, AdobeInvisFont;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
@@ -77,22 +86,84 @@ html {
     box-sizing: border-box;
 }
 
-
 .clearflix {
     display: block;
     overflow: auto;
     clear: both;
 }
-/* ------------topbar------------ */
-.topbar:hover{color:var(--red); text-decoration: none;}
-.topbar{color: var(--white);}
-/* -----------navbar------------- */
-.nobodyfool{font-size: 3.0000022677168rem; color: rgba(51, 51, 51, 255); text-align: left;}
-/* ------------section--------------- */
-.section{background-color:var(--bg);}
-.secparagraph{font-size: 1.3333343412075 Rem;}
-.bottom-border{background-color:var(--bg) ; border: 10px solid var(--bg);}
-/* -------------------------footer----------------------- */
-.footer-border{border: 2px solid var(--black);}
-.footer-img{border: 1px solid white}
 
+a:hover {
+    text-decoration: none;
+}
+
+/* ------------topbar------------ */
+
+.topbar:hover {
+    color: var(--red);
+    text-decoration: none;
+}
+
+.topbar {
+    color: var(--white);
+}
+
+.slash {
+    color: rgba(159, 159, 159, 255);
+}
+
+/* -----------navbar------------- */
+
+.nobodyfool {
+    font-size: 3.0000022677168rem;
+    color: rgba(51, 51, 51, 255);
+    text-align: left;
+}
+
+.nav_bar {
+    color: rgba(46, 46, 46, 255);
+}
+
+.nav_bar:hover {
+    color: rgba(159, 159, 159, 255);
+}
+
+/* ------------section--------------- */
+
+.section {
+    background-color: var(--bg);
+}
+
+.secparagraph {
+    font-size: 1.3333343412075rem;
+    color: rgba(255, 255, 255, 255);
+}
+
+.bottom-border {
+    background-color: var(--bg);
+    border: 10px solid var(--bg);
+}
+
+.pro_ar {
+    color: rgba(51, 51, 51, 255);
+    font-size: 18pt;
+}
+
+.pro_button {
+    color: rgba(230, 230, 230, 255);
+    font-size: 26pt;
+    border-radius: 12px;
+}
+
+/* -------------------------footer----------------------- */
+
+.footer-border {
+    border: 2px solid var(--black);
+}
+
+.footer-img {
+    border: 1px solid white
+}
+
+.footer_lorem {
+    color: rgba(102, 102, 102, 255);
+}
